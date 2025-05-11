@@ -1,18 +1,12 @@
-mydic = {"name": "usman", "age": "26",
-         "phone": "03114967133"}
+person = {"name": "usman",
+          "age": "26",
+          "cell": "03488139888"}
+# print(person)
+# # print(person.keys())
+# # print(person["name"])
+# person["profession"] = "Linuxenginner"
+# print(person.get("profession"))
+# person.update({"profession" : "cloudengineer"})
 
-print(mydic["name"])
-print(mydic["age"])
-print(mydic["phone"])
-print(mydic.keys())
-
-
-marks = {"science": 90, "English": 80, "urdu": 73,}
-type(marks)
-print(marks["urdu"])
-print(marks["English"])
-print(marks["science"])
-
-# adding item to the dictonary
-marks["Math"] = 66
-print(marks)
+# # print(person.get("profession"))
+# print(person.keys())
