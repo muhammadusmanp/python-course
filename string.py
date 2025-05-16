@@ -1,3 +1,4 @@
+# join the string
 firt_name = "Muhammad"
 second_name = "Usman"
 full_name = firt_name + " " + second_name
@@ -36,7 +37,18 @@ print(teacher)
 # strip in python
 whoami  = " usman "
 print(whoami.strip())
-# remove ! from string
+# remove ! from string rstrip
 programming = "python!!!!!!!!!!!!!!!!!!!!"
 print(programming)
 print(programming.rstrip("!"))
+
+# Indexing
+my_name = "usman"
+# print(my_name)
+print(my_name[0]) # access 1st char
+print(my_name[3])
+print(my_name[-1]) # access last char
+# Slicing
+coding =  "I love coding in Python"
+print(coding[2:6]) # print love
+print(coding[-6:]) # print python
